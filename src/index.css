@@ -1,4 +1,5 @@
-body {
+html,body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Header{
+	width: 100%;
+}
+
+.navbar-brand span{
+	margin-left: 10px;
+}
+
+.Freind-list-container{
+	background-color: #f9f9f9;
+	height: 100%;
+	padding: 10px;
+}
+.Freind-list-container h4{
+	color: grey;
+}
+.full-height{
+	height: 100%;
+}
+#root{
+	height: 100%;
 }
